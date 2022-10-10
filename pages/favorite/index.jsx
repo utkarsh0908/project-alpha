@@ -1,5 +1,5 @@
 import Styles from "../favorite/favorite.module.css";
-import Nav from "../components/Nav/Nav";
+import Nav from "../components/Sidebar/Sidebar";
 import Image from "next/image";
 import { MdSearch } from "react-icons/md";
 const favorite = () => {
