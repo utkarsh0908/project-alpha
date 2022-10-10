@@ -1,6 +1,6 @@
 
 import Link from "next/link";
-import Style from "../Nav/Navbar.module.css";
+import Style from "../Sidebar/Sidebar.module.css";
 import { FaRegHeart } from "react-icons/fa";
 import { FaRegUser } from "react-icons/fa";
 import { GoThreeBars } from "react-icons/go";
