@@ -44,9 +44,7 @@ const Nav = () => {
             </li>
           </ul>
         </div>
-        <div className={Style.hamburger}>
-          <GoThreeBars className={Style.hamIcon} />
-        </div>
+        
       </nav>
     </>
   );
