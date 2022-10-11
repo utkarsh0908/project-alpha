@@ -7,7 +7,6 @@ const profile = () => {
     <>
       <main className={Styles.main}>
         <Nav />
-
         <div className={Styles.profile}>
           <div className={Styles.top}>
           <div className={Styles.container}>
@@ -24,7 +23,10 @@ const profile = () => {
             </div>
           </div>
           </div>
-          <div className={Styles.bottom}></div>
+          <div className={Styles.bottom}>
+
+            
+          </div>
         </div>
       </main>
     </>
