@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.main_heading{
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+}
+.share_image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.share_img {
+  height: 200px;
+}
+.share {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sharing_option {
+  display: flex;
+  justify-content: space-between;
+ width: 80%;
+  background: rgba(236, 140, 37, 0.64);
+  margin-bottom: 13px;
+  padding: 12px 15px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  transition: 0.2s linear;
+  border: 2px solid rgba(236, 140, 37, 0.64) ; 
+  color: #000000;
+  text-decoration: none;
+}
+.sharing_option.sharing_option:hover {
+    background-color: transparent;
+    color: #000000;
+    border: 2px solid rgba(236, 140, 37, 0.64) ; 
+}
+.sharing_option:nth-child(2){
+    background-color: transparent;
+    color: #000000;
+    border: 2px solid rgba(236, 140, 37, 0.64) ;  
+    transition: 0.2s linear;  
+}
+.sharing_option:nth-child(2):hover{
+    background: rgba(236, 140, 37, 0.64); 
+}
+.sharing_option_name {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+}
+.sharing_option_icon {
+  font-size: 21px;
+}
+@media screen and (max-width: 860px){
+  .main_heading{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 650px){
+  .main_heading{
+    font-size: 28px;
+  }
+}
