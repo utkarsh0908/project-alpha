@@ -1,9 +1,9 @@
-import Prof from "./profile/index";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 export default function Home() {
   return (
     <>
-      <Prof />
+     <Sidebar/>
     </>
   );
 }

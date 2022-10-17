@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+.input {
+  padding: 8px;
+  margin-bottom: 20px;
+  width: 70%;
+  font-size: 17px;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid rgba(236, 140, 37, 0.64);
+}
+.textarea {
+  padding: 8px;
+  margin-bottom: 20px;
+  width: 70%;
+  font-size: 17px;
+  height: 120px;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid rgba(236, 140, 37, 0.64);
+  resize: none;
+}
+.btn {
+  width: 156px;
+  height: 37px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  background-color: #ec8c25;
+  color: #ffffff;
+  border: 1px solid #ec8c25;
+  border-radius: 33px;
+  transition: all 0.3s ease-in;
+}
+.btn:hover {
+  background-color: transparent;
+  color: #ec8c25;
+}
+@media screen and (max-width: 900px) {
+  .form {
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 650px){
+    .form {
+        align-items: center;
+    }
+    .input{
+        width: 90%;
+    }
+    .textarea{
+        width: 90%;
+    }
+    .btn{
+        align-self: flex-start;
+        margin-left: 18px;
+    }
+}
