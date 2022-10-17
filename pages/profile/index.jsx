@@ -29,7 +29,6 @@ const profile = () => {
             source="/image/ProfileImg.png"
             heading="My Profile"
           />
-
           <div className="bottom_box">
             <div className="bottom_container">
               <div>
@@ -57,18 +56,18 @@ const profile = () => {
                     </div>
                   </Link>
                   <Link href="/sharewithother">
-                  <div className={Styles.profile_info}>
-                    <h2 className={Styles.profile_info_title}>
-                      Share with friends
-                    </h2>
-                    <AiOutlineRight className={Styles.profile_info_btn} />
-                  </div>
+                    <div className={Styles.profile_info}>
+                      <h2 className={Styles.profile_info_title}>
+                        Share with friends
+                      </h2>
+                      <AiOutlineRight className={Styles.profile_info_btn} />
+                    </div>
                   </Link>
                   <Link href="/feedback">
-                  <div className={Styles.profile_info}>
-                    <h2 className={Styles.profile_info_title}> Review </h2>
-                    <AiOutlineRight className={Styles.profile_info_btn} />
-                  </div>
+                    <div className={Styles.profile_info}>
+                      <h2 className={Styles.profile_info_title}> Review </h2>
+                      <AiOutlineRight className={Styles.profile_info_btn} />
+                    </div>
                   </Link>
                 </div>
               </div>
@@ -87,14 +86,12 @@ const profile = () => {
             <div className="responsive_mobile">
               <div className="responsive_mobile_buttons">
                 <button className="responsive_mobile_buttons_btn">
-                  <span className="responsive_mobile_buttons_icon">          
+                  <span className="responsive_mobile_buttons_icon">
                     <BsArrowLeftShort />
                   </span>
                   Back
                 </button>
-                <button className="responsive_mobile_buttons_btn">
-                  Save
-                </button>
+                <button className="responsive_mobile_buttons_btn">Save</button>
               </div>
             </div>
           </div>
