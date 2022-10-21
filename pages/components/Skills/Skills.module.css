@@ -1,0 +1,525 @@
+.head {
+
+    position: absolute;
+    width: 974px;
+    height: 76px;
+    left: 44px;
+    top: 85px;
+
+    /* HEADING 1 */
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 76px;
+    /* identical to box height */
+
+
+    /* primary 2 */
+
+    color: #B66E3E;
+}
+
+.para {
+    position: absolute;
+    width: 693px;
+    height: 96px;
+    left: 44px;
+    top: 173px;
+
+    /* PARAGRAPH TEXT */
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #322828;
+}
+
+.access {
+    position: absolute;
+    width: 700px;
+    height: 30px;
+    left: 46px;
+    top: 272px;
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.btn {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 135px;
+    height: 51px;
+    left: 56px;
+    top: 316px;
+
+    /* primary 1 */
+
+    background: #EC8C25;
+    border: 2px solid #EC8C25;
+    border-radius: 12px;
+    position: absolute;
+
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.but {
+    position: absolute;
+    width: 135px;
+    height: 24px;
+    left: 206px;
+    top: 331px;
+
+    /* PARAGRAPH TEXT 2 */
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    border: none;
+    background-color: white;
+
+
+    color: #EC8C25;
+}
+
+.ser {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 972px;
+    height: 61px;
+    left: 361px;
+    top: 401px;
+
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+
+
+.input {
+    position: absolute;
+    width: 469px;
+    height: 56px;
+    left: 26px;
+    top: 0px;
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    border: none;
+
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.beg {
+    position: absolute;
+    width: 185px;
+    height: 46px;
+    left: 360px;
+    top: 482px;
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    text-transform: capitalize;
+    border-color: #EC8C25;
+
+    color: #EC8C25;
+
+}
+
+.int {
+    position: absolute;
+    width: 185px;
+    height: 46px;
+    left: 575px;
+    top: 482px;
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.high {
+    position: absolute;
+    width: 185px;
+    height: 46px;
+    left: 790px;
+    top: 482px;
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: white;
+    justify-content: center;
+
+    color: #000000;
+}
+
+.field {
+    position: absolute;
+    width: 188px;
+    height: 32px;
+    left: 37px;
+    top: 414px;
+
+    /* PARAGRAPH TEXT */
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+.tech {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 293px;
+    height: 47px;
+    left: 37px;
+    top: 462px;
+
+    border-bottom: 1px solid #EC8C25;
+}
+
+.ten {
+    position: absolute;
+    width: 203px;
+    height: 24px;
+    left: 40px;
+    top: 10px;
+
+    /* PARAGRAPH TEXT 2 */
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #EC8C25;
+
+}
+
+.art {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 293px;
+    height: 42px;
+    left: 35px;
+    top: 531px;
+
+    border-bottom: 1px solid #000000;
+}
+
+.arts {
+    position: absolute;
+    width: 203px;
+    height: 24px;
+    left: 43px;
+    top: 10px;
+
+    /* PARAGRAPH TEXT 2 */
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.ui {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 293px;
+    height: 42px;
+    left: 35px;
+    top: 591px;
+
+    border-bottom: 1px solid #000000;
+}
+
+.ux {
+    position: absolute;
+    width: 203px;
+    height: 24px;
+    left: 43px;
+    top: 10px;
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: capitalize;
+
+    color: #000000;
+
+}
+
+.card {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 478px;
+    height: 319px;
+    left: 361px;
+    top: 558px;
+
+    /* primary 1 */
+
+    /*background: #EC8C25;*/
+    border: 1px solid #000000;
+    border-radius: 14px;
+}
+
+.card2 {
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 478px;
+    height: 319px;
+    left: 871px;
+    top: 558px;
+
+    /* primary 1 */
+
+    background: white;
+    border: 1px solid #000000;
+    border-radius: 14px;
+}
+
+.csrhed {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 16px;
+
+    width: 476px;
+    height: 93px;
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    border-radius: 14px;
+
+}
+
+.pyton {
+    width: 318px;
+    height: 30px;
+
+    /* PARAGRAPH TEXT */
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.lang {
+
+    width: 318px;
+    height: 23px;
+
+    /* PARAGRAPH TEXT 2 */
+
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+
+    color: #A9A9A9;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.content {
+    /* Content */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+
+    width: 476px;
+    height: 134px;
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.bar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+
+    width: 476px;
+    height: 92px;
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.bt1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    width: 218px;
+    height: 60px;
+
+    background: rgba(236, 140, 37, 0.64);
+    border-radius: 5px;
+    border-color: rgba(236, 140, 37, 0.64);
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.bt2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+
+    width: 218px;
+    height: 60px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    background: white;
+    border-radius: 5px;
+
+    /* Inside auto layout */
+    color: #EC8C25;
+    border-color: #EC8C25;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

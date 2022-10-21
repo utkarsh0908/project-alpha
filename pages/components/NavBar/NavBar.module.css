@@ -7,9 +7,9 @@
 
 .logo {
   width: 11rem;
-height: 51.75px;
-left: 109px;
-top: 59px;
+  height: 51.75px;
+  left: 109px;
+  top: 59px;
 }
 
 .nav ul li {
@@ -39,10 +39,12 @@ top: 59px;
     display: block;
     font-size: 25px;
   }
+
   .cross {
     display: block;
     font-size: 25px;
   }
+
   .nav ul {
     background: #f1530a;
     position: fixed;
@@ -54,17 +56,20 @@ top: 59px;
     z-index: 2;
     transition: right 0.5s;
   }
+
   .nav ul li {
     display: block;
     margin: 25px;
   }
-   .menu {
+
+  .menu {
     position: absolute;
     top: 25px;
     left: 25px;
     cursor: pointer;
   }
-   .cross {
+
+  .cross {
     position: absolute;
     top: 25px;
     left: 25px;
