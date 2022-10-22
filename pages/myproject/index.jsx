@@ -2,22 +2,24 @@ import Styles from "../myproject/myproject.module.css";
 import Sidebar from "../components/Sidebar/Sidebar";
 import { AiOutlineFileAdd } from "react-icons/ai";
 import TopContainer from "../components/TopContainer/index";
-import { BsArrowLeftShort } from "react-icons/bs";
+import { BsArrowLeftShort,BsList } from "react-icons/bs";
 import { useRef, useState } from "react";
 import Link from "next/link";
 const profile = () => {
   const inputRef = useRef(null);
   const [file, setFile] = useState(null);
-
+  const [toggle, setToggle] = useState(false);
   return (
     <>
       <main className="main">
-        <Sidebar />
-        <div className="main_container">
+      {toggle ? <Sidebar  /> : " "}
+        <div className={toggle ? "main_container main_container_toggle": "main_container"  }>
           <TopContainer
             responsiveTitle="My Project"
             source="/image/projectimage.png"
             heading="My Progress"
+            setToggle={setToggle}
+            toggle={toggle}
           />
           <div className="bottom_box">
             <div className="bottom_container">
@@ -78,6 +80,14 @@ const profile = () => {
                 className="main_img_tag"
               />
             </span>
+            <div
+              className="hamburger"
+              onClick={() => {
+                setToggle(!toggle);
+              }}
+            >
+              <BsList />
+            </div>
             <div className="responsive_mobile">
               <div className="responsive_mobile_buttons">
               <Link href="/profile">

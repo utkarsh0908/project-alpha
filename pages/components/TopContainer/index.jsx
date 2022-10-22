@@ -1,26 +1,33 @@
-import Image from "next/image";
-import { MdSearch } from "react-icons/md";
+import { useState } from "react";
 import { BsList } from "react-icons/bs";
 import Styles from "../TopContainer/TopContainer.module.css";
 const TopContainer = (props) => {
+
+
   return (
     <>
       <div className={Styles.top_box}>
         <div className={Styles.responsive_mobile}>
-          <span className={Styles.hamburger}>
+          <span className={Styles.hamburger} onClick={()=>props.setToggle(!props.toggle)} >
             <BsList className={Styles.hamburger} />
           </span>
           <div className={Styles.responsive_heading_center}>
-          <div>
-          <h1 className={Styles.responsive_mobile_heading}>
-              {props.responsiveTitle}
-            </h1>
-            <p className={Styles.responsive_mobile_title}> How’s your day today? </p>
-          </div>
+            <div>
+              <h1 className={Styles.responsive_mobile_heading}>
+                {props.responsiveTitle}
+              </h1>
+              <p className={Styles.responsive_mobile_title}>
+                How’s your day today?{" "}
+              </p>
+            </div>
             <span className={Styles.Image}>
-              <img src={props.source} alt="Image" className={Styles.top_img_tag} />
+              <img
+                src={props.source}
+                alt="Image"
+                className={Styles.top_img_tag}
+              />
             </span>
-         </div>
+          </div>
         </div>
         <div className={Styles.top_container}>
           <div className={Styles.logo}>
