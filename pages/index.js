@@ -8,7 +8,7 @@ export default function Home() {
    <>
     <NavBar/>
     <Skills/>
-    <Sidebar/>
+    {/* <Sidebar/> */}
    
    </>
   )}
